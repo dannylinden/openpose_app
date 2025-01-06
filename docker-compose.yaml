@@ -9,7 +9,7 @@ services:
     ports:
       - 8501:8501
     depends_on:
-      - backend
+      - openpose_backend
     volumes:
       - ./storage:/storage
 
